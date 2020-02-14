@@ -1,4 +1,4 @@
-module github.com/j4ng5y/terraform-provider-aws.v2
+module github.com/j4ng5y/terraform-provider-aws
 
 go 1.13
 
@@ -19,6 +19,7 @@ require (
 	github.com/mitchellh/copystructure v1.0.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/pquerna/otp v1.2.0
+	github.com/terraform-providers/terraform-provider-aws v1.60.0
 	golang.org/x/tools v0.0.0-20200204192400-7124308813f3
 	gopkg.in/yaml.v2 v2.2.8
 )
